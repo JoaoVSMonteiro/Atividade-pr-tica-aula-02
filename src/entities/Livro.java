@@ -1,16 +1,16 @@
 package entities;
 
-public class Livros {
+public class Livro {
     public String titulo;
     public String autor;
     public int anoDePublicacao;
     public boolean livroDisponivel;
 
 
-    public Livros() {
+    public Livro() {
 
     }
-    public Livros(String titulo, String autor, int anoDePublicacao, boolean livroDisponivel) {
+    public Livro(String titulo, String autor, int anoDePublicacao) {
         this.titulo = titulo;
         this.autor = autor;
         this.anoDePublicacao = anoDePublicacao;
