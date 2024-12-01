@@ -21,7 +21,7 @@ public class Usuario {
         return id;
     }
 
-    public ArrayList<String> getLivrosEmprestados() {
+    public ArrayList<Livro> getLivrosEmprestados() {
         return livrosEmprestados;
     }
 

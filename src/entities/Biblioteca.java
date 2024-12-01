@@ -15,6 +15,7 @@ public class Biblioteca {
 
     public void AdicionarLivro(String titulo, String autor, int anoPublicacao) {
         livros.add(new Livro(titulo, autor, anoPublicacao));
+        System.out.println("Livro adicionado com sucesso!!");
     }
 
     public void removerLivro(String titulo) {
@@ -23,6 +24,7 @@ public class Biblioteca {
                 livros.remove(livro);
             }
         }
+        System.out.println("Livro removido com sucesso!!");
     }
     public void buscarLivro(String titulo) {
         for (Livro livro : livros) {

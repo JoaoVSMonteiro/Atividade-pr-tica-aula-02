@@ -1,11 +1,10 @@
 package entities;
 
 public class Livro {
-    public String titulo;
-    public String autor;
-    public int anoDePublicacao;
-    public boolean livroDisponivel;
-
+    private String titulo;
+    private String autor;
+    private int anoDePublicacao;
+    private boolean livroDisponivel;
 
     public Livro() {
 
