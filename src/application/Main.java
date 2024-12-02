@@ -17,7 +17,7 @@ public class Main {
             System.out.println("2. Remover livro ");
             System.out.println("3. Listar livros: ");
             System.out.println("4. Buscar livro: ");
-            System.out.println("5. Emprestar livro: ");
+            System.out.println("5. Reservar livro: ");
             System.out.println("6. Devolver livro: ");
             System.out.println("7. Adicionar Usuário: ");
             System.out.println("8. Listar usuários: ");
@@ -62,11 +62,12 @@ public class Main {
                     System.out.println("Digite o nome do usuário: ");
                     nomeUsuario = sc.nextLine();
                     biblioteca.devolverLivroEmprestado(titulo, nomeUsuario);
+                    System.out.println("Livro devolvido!");
                     break;
                 case 7:
-                    System.out.println("Digite nome do usuáiro: ");
+                    System.out.println("Digite nome do usuário: ");
                     nomeUsuario = sc.nextLine();
-                    System.out.println("Digite o ID do usuário: ");
+                    System.out.println("Digite um número que ficará relacionado ao seu nome: ");
                     int IDUsuario = sc.nextInt();
                     biblioteca.AdicionarUsuario(nomeUsuario, IDUsuario);
                     break;
